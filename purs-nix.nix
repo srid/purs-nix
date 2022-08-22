@@ -464,6 +464,8 @@ deps:
             (local-graph true);
       in
       { dependencies = all-dependencies;
+      
+        inherit ps-tools;
 
         modules =
           mapAttrs
