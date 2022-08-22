@@ -10,6 +10,7 @@ deps:
     inherit (pkgs) esbuild;
     inherit (pkgs.lib) licenses;
     purescript = purescript';
+    inherit ps-tools;
 
     purs =
       { nodejs ? pkgs.nodejs
